@@ -4,14 +4,22 @@
 {% block content %}
 <h1> Hello everyone to Events Categories !</h1>
 <h3>Categories list : </h3>
-<h4>Category 1 </h4>
-<h5>Category Name : </h5>
-<a href= "/event/12345">Wedding Events</a>
-<h5>Description : </h5>
-<p>.....................</p>
-<h4>Category 2 </h4>
-<h5>Category Name : </h5>
-<a href= "/event/67899">Birthday Events</a>
-<h5>Description : </h5>
-<p>.....................</p>
+<ol>
+<li><a href= "/event/12345">Wedding Events</a></li>
+<ul>
+    <li><h5>Description : </h5></li>
+    <p>.................</p>
+</ul>
+<p></p>
+<li><a href= "/event/67899">Birthday Events</a></li>
+<ul>
+   <li><h5>Description : </h5></li>
+   <p>...............</p>
+</ul>
+<li><a href= "/event/67899">Graduation events</a></li>
+<ul>
+    <li><h5>Description : </h5></li>
+    <p>.................</p>
+</ul>
+</ol>
 {% endblock content %}

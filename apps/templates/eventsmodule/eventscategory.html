@@ -1,10 +1,32 @@
 {% extends "layouts/base.html" %}
+{% block stylesheets %}
+   <style>
+      table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+       }
+     </style>
+{% endblock stylesheets %}
 
 {% block title %}Category info{% endblock %}
 {% block content %}
-<h3> Events Category Details : </h3>
-<h4>Category Name : </h4>
-<p>{{eventscategory.categoryname}}</p>
-<h4>Pakage Details : </h4>
-<p>{{eventscategory.pakagedetails}}</p>
+
+<table>
+    <caption><h3> Events Category Details : </h3></caption>
+    <tr>
+    <th>Category Name</th>
+    <th>Pakage Details</th>
+    <th>Special Services</th>
+    <th>Total Price</th>
+    </tr>
+    <tr>
+    <td>{{eventscategory.categoryname}}</td>
+    <td>{{eventscategory.pakagedetails}}</td>
+    <td>Yes</td>
+    <td>$</td>
+    </tr>
+    </table>
 {% endblock content %}
+
+
+
