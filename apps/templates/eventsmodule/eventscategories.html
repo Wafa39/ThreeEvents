@@ -7,12 +7,14 @@
 <table border="1">
     <tr>
         <th>Category name :</th>
-        <th>Price</th>
+        <th>Pakage detail :</th>
+        <th>Price:</th>
     </tr>
     {% for e in eventscategorie %}
         <tr>
             <td>{{e.categoryname}}</td>
             <td>{{e.pakagedetails}}</td>
+            <td>{{e.price}}</td>
         </tr>
     {%endfor%}
 </table>

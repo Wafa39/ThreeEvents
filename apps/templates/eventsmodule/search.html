@@ -13,8 +13,17 @@
  <input type="checkbox" name="option1"/><label>Category name</label>
  <input type="checkbox" name="option2"/><label>Price</label>
  <br/>
- 
+ <select name="selectedgenre">
+    <option selected>None</option>
+   <option value="fiction">Fiction</option>
+   <option value="n-fiction">Non-fiction</option>
+   <option value="novel">Novel</option>
+    </select>
+<br/> 
+<textarea name="description" rows="10" cols="30"></textarea>
+<br/>
  <button type="submit" >Search</button>
+ 
 </form>
 {% endblock content %}
 
