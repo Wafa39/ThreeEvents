@@ -68,29 +68,29 @@ def eventscategory(request,EventId):
 
 def _getEvents():
     eventscategorie =[]
-    category1 = {'id':12345,'categoryname':'Wedding Event','pakagetype':'Diamond','pakagedetails':'...........','price':'500'} 
+    category1 = {'id':12345,'categoryname':'Wedding Event','pakagetype':'Diamond','pakagedetails':'banners,centerpieces,candles,backdrops,table runners,flower arrangements,balloons,table setting,tables','price':'500'} 
     eventscategorie.append(category1)
-    category2 = {'id':67899,'categoryname':'Wedding Event','pakagetype':'Platinum','pakagedetails':'...........','price':'300'}
+    category2 = {'id':67899,'categoryname':'Wedding Event','pakagetype':'Platinum','pakagedetails':'banners,centerpieces,candles,backdrops,table runners,flower arrangements,balloons','price':'300'}
     eventscategorie.append(category2)
-    category3 = {'id':12188,'categoryname':'Wedding Event','pakagetype':'Gold','pakagedetails':'...........','price':'200'} 
+    category3 = {'id':12188,'categoryname':'Wedding Event','pakagetype':'Gold','pakagedetails':'banners,centerpieces,candles,backdrops,flower arrangements,balloons','price':'200'} 
     eventscategorie.append(category3)
-    category4 = {'id':12354,'categoryname':'Wedding Event','pakagetype':'Silver','pakagedetails':'...........','price':'100'} 
+    category4 = {'id':12354,'categoryname':'Wedding Event','pakagetype':'Silver','pakagedetails':'banners,centerpieces,candles,backdrops,flower arrangements','price':'100'} 
     eventscategorie.append(category4)
-    category5 = {'id':67859,'categoryname':'Birthday Event','pakagetype':'Diamond','pakagedetails':'...........','price':'500'}
+    category5 = {'id':67859,'categoryname':'Birthday Event','pakagetype':'Diamond','pakagedetails':'banners,centerpieces,candles,backdrops,table runners,flower arrangements,balloons,table setting,tables','price':'500'}
     eventscategorie.append(category5)
-    category6 = {'id':12588,'categoryname':'Birthday Event','pakagetype':'Platinum','pakagedetails':'...........','price':'300'} 
+    category6 = {'id':12588,'categoryname':'Birthday Event','pakagetype':'Platinum','pakagedetails':'banners,centerpieces,candles,backdrops,table runners,flower arrangements,balloons','price':'300'} 
     eventscategorie.append(category6)
-    category7 = {'id':12335,'categoryname':'Birthday Event','pakagetype':'Gold','pakagedetails':'...........','price':'200'} 
+    category7 = {'id':12335,'categoryname':'Birthday Event','pakagetype':'Gold','pakagedetails':'banners,centerpieces,candles,backdrops,flower arrangementsm,balloons','price':'200'} 
     eventscategorie.append(category7)
-    category8 = {'id':63399,'categoryname':'Birthday Event','pakagetype':'Silver','pakagedetails':'...........','price':'100'}
+    category8 = {'id':63399,'categoryname':'Birthday Event','pakagetype':'Silver','pakagedetails':'banners,centerpieces,candles,backdrops,flower arrangements','price':'100'}
     eventscategorie.append(category8)
-    category9 = {'id':12938,'categoryname':'Graduation Event','pakagetype':'Diamond','pakagedetails':'...........','price':'500'} 
+    category9 = {'id':12938,'categoryname':'Graduation Event','pakagetype':'Diamond','pakagedetails':'banners,centerpieces,candles,backdrops,table runners,flower arrangements,balloons,table setting,tables','price':'500'} 
     eventscategorie.append(category9)
-    category10 = {'id':12385,'categoryname':'Graduation Event','pakagetype':'Platinum','pakagedetails':'...........','price':'300'} 
+    category10 = {'id':12385,'categoryname':'Graduation Event','pakagetype':'Platinum','pakagedetails':'banners,centerpieces,candles,backdrops,table runners,flower arrangements,balloons','price':'300'} 
     eventscategorie.append(category10)
-    category11 = {'id':67239,'categoryname':'Graduation Event','pakagetype':'Gold','pakagedetails':'...........','price':'200'}
+    category11 = {'id':67239,'categoryname':'Graduation Event','pakagetype':'Gold','pakagedetails':'banners,centerpieces,candles,backdrops,flower arrangements,balloons','price':'200'}
     eventscategorie.append(category11)
-    category12 = {'id':12328,'categoryname':'Graduation Event','pakagetype':'Silver','pakagedetails':'...........','price':'100'} 
+    category12 = {'id':12328,'categoryname':'Graduation Event','pakagetype':'Silver','pakagedetails':'banners,centerpieces,candles,backdrops,flower arrangements','price':'100'} 
     eventscategorie.append(category12)
     
     return eventscategorie
