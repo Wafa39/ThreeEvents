@@ -6,13 +6,15 @@
 <h3>Categories list : </h3>
 <table border="1">
     <tr>
-        <th>Category name :</th>
-        <th>Pakage detail :</th>
-        <th>Price:</th>
+        <th>Category name </th>
+        <th>Pakage Type </th>
+        <th>Pakage detail </th>
+        <th>Price</th>
     </tr>
     {% for e in eventscategorie %}
         <tr>
             <td>{{e.categoryname}}</td>
+            <td>{{e.pakagetype}}</td>
             <td>{{e.pakagedetails}}</td>
             <td>{{e.price}}</td>
         </tr>

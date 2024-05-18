@@ -15,15 +15,15 @@
     <caption><h3> Events Category Details : </h3></caption>
     <tr>
     <th>Category Name</th>
+    <th>pakage Type</th>
     <th>Pakage Details</th>
-    <th>Special Services</th>
     <th>Total Price</th>
     </tr>
     <tr>
     <td>{{eventscategory.categoryname}}</td>
+    <td>{{eventscategory.pakagetype}}</td>
     <td>{{eventscategory.pakagedetails}}</td>
-    <td>Yes</td>
-    <td>$</td>
+    <td>${{eventscategory.price}}</td>
     </tr>
     </table>
 {% endblock content %}
